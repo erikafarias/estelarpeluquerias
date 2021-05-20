@@ -1,0 +1,41 @@
+@media (min-width: 550px) and (max-width: 1100px) {
+  * {
+    font-size: 14px;
+  }
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .columna {
+    min-width: 50%;
+    max-width: 50%;
+  }
+  .columna1 {
+    order: 1;
+  }
+  .columna3 {
+    order: 2;
+  }
+  .columna2 {
+    order: 3;
+  }
+  .columna4 {
+    order: 4;
+  }
+
+  .textoindex {
+    max-width: 80vw;
+  }
+
+  .itemservicio {
+    min-width: 33vw;
+  }
+
+  .mapas {
+    flex-wrap: wrap;
+  }
+  .cuadros {
+    min-width: 60%;
+    max-width: 75%;
+  }
+}

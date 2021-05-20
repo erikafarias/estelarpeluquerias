@@ -1,0 +1,72 @@
+@media (max-width: 550px) {
+  * {
+    font-size: 12px;
+  }
+  .logo {
+    min-width: 100vw;
+    max-width: 100vw;
+  }
+  #navbar {
+    padding-bottom: 30px;
+  }
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .columna {
+    min-width: 100vw;
+    max-width: 100vw;
+  }
+  .img-galeria {
+    margin: 5px 10px;
+  }
+
+  .servicios {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+  }
+  .itemservicio {
+    margin: 10px;
+    display: block;
+    min-width: 90%;
+  }
+  .tituloservicio {
+    font-size: 2em;
+  }
+  .descrservicio {
+    font-size: 1.3em;
+  }
+  .linkturno {
+    font-size: 1.3em;
+  }
+  .formasdecontacto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .formulario {
+    flex-grow: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    margin: auto;
+  }
+  .telefonoyredes {
+    flex-grow: 1;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .textoindex {
+    max-width: 85vw;
+  }
+
+  .mapas {
+    flex-wrap: wrap;
+  }
+  .cuadros {
+    width: 100%;
+  }
+}
